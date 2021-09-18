@@ -1,0 +1,10 @@
+section, div, img, p, article, input, form, button, input:focus{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+body{
+  background-color: #e7e7e7;
+}

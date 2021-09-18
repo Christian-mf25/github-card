@@ -1,0 +1,45 @@
+#card{
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	width: 95vw;
+	height: 100px;
+
+	background-color: #fff;
+
+	border-radius: 12px;
+}
+
+
+.logo-repo{	
+	margin-left: 5px;
+	
+	width: 70px;
+	height: 70px;
+}
+
+.text{
+	margin-left: 15px;
+}	
+
+.name-repo{
+	font-weight: 600;
+	font-size: 1.2rem;
+
+	margin-bottom: 5px;
+}
+
+.description-repo{
+	color: lightslategray;
+}
+
+@media (min-width: 500px){
+	#card{
+		max-width: 550px;
+	}
+}
